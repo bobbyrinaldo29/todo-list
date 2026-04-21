@@ -64,6 +64,36 @@
 			},
 			{
 				"inputs": [],
+				"name": "getAllTask",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "id",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "content",
+								"type": "string"
+							},
+							{
+								"internalType": "bool",
+								"name": "completed",
+								"type": "bool"
+							}
+						],
+						"internalType": "struct TodoList.Task[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "getTaskCount",
 				"outputs": [
 					{
@@ -151,11 +181,11 @@
 	},
 	"sources": {
 		"contracts/todoList.sol": {
-			"keccak256": "0x37d5b72b224799f133aa0671326fe8e1a22234cca0cdf2c0f7d931ae80322dba",
+			"keccak256": "0x7abaeb11f27034b00ea7181698aca3c874f289263c1d2780403c4ead67be8e4c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5520159259c5fb932217a586e67995e5cce84413fc10e5c80aabc9fa02b9b9ec",
-				"dweb:/ipfs/QmdwnpMd1mPCvNZVV9BdWWBVwah1wq5jv95984aG4ci28H"
+				"bzz-raw://f853d23b08a27915969665b4247b24f8ed090f1b1ef800c365f01518a14bb7f1",
+				"dweb:/ipfs/QmYhtT1S5mC7Yyur8BGPZNawnpj12rqawyc3fRwCpcTqkF"
 			]
 		}
 	},

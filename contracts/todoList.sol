@@ -31,4 +31,8 @@ contract TodoList {
     function getTaskCount() public view returns (uint) {
         return userTasks[msg.sender].length;
     }
+
+    function getAllTask() public view returns (Task[] memory) {
+        return userTasks[msg.sender];
+    }
 }
